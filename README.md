@@ -1,8 +1,5 @@
 # Single-Cycle 32-bit MIPS Processor in Verilog
 
-![Verilog](https://img.shields.io/badge/Language-Verilog-blue.svg)
-![License](https://img.shields.io/badge/License-MIT-green.svg) <!--- Suggesting MIT, you can change this --->
-
 A complete 32-bit single-cycle MIPS processor implemented in Verilog. This project was developed as part of a computer architecture course, demonstrating the fundamental concepts of processor design, including datapath and control unit implementation.
 
 ## 📋 Table of Contents
