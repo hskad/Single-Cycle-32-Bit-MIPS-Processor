@@ -1,0 +1,10 @@
+# Simulation output files
+*.vcd
+*.vvp
+*.log
+mips_sim
+
+# Tool-specific files (optional but good practice)
+*.jou
+webtalk*.log
+webtalk*.tcl
