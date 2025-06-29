@@ -2,7 +2,7 @@
 
 A complete 32-bit single-cycle MIPS processor implemented in Verilog. This project was developed as part of a computer architecture course, demonstrating the fundamental concepts of processor design, including datapath and control unit implementation.
 
-## 📋 Table of Contents
+## Table of Contents
 - [Features](#-features)
 - [Processor Architecture](#-processor-architecture)
 - [Project Structure](#-project-structure)
@@ -12,13 +12,13 @@ A complete 32-bit single-cycle MIPS processor implemented in Verilog. This proje
 - [Implemented Instructions](#-implemented-instructions)
 - [Project Report](#-project-report)
 
-## ✨ Features
+## Features
 - **32-bit MIPS Architecture**: Implements a subset of the MIPS instruction set.
 - **Single-Cycle Datapath**: Every instruction is executed in a single clock cycle.
 - **Modular Design**: The processor is built from interconnected modules like the ALU, Control Unit, Register File, and Memories.
 - **Testbenched**: Includes a comprehensive testbench (`mips_processor_tb.v`) for functional verification.
 
-## 🏛️ Processor Architecture
+## Processor Architecture
 The datapath is designed according to the single-cycle MIPS architecture. It consists of the following core components:
 
 | Module              | File (`/rtl`)         | Description                                                      |
@@ -36,7 +36,7 @@ The datapath is designed according to the single-cycle MIPS architecture. It con
 
 A detailed diagram of the datapath can be found in the [Project Report](doc/Project%20Report.pdf).
 
-## 📁 Project Structure
+## Project Structure
 The project is organized into the following directories for clarity and maintainability:
 
 ```
@@ -64,7 +64,7 @@ The project is organized into the following directories for clarity and maintain
 - **/sim**: Contains the testbench file(s) for simulation.
 - **/doc**: Contains the project documentation.
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - A Verilog simulator (e.g., [Icarus Verilog](http://iverilog.icarus.com/), ModelSim, Vivado).
@@ -97,7 +97,7 @@ Follow these steps to run the simulation using Icarus Verilog and GTKWave.
     gtkwave mips_processor_tb.vcd
     ```
 
-## 💻 Implemented Instructions
+## Implemented Instructions
 
 The processor supports the following MIPS instructions:
 
@@ -121,7 +121,7 @@ The processor supports the following MIPS instructions:
 
 > **Note**: You may need to pre-load the instruction memory file (`instruction_memory.v`) with machine code to test specific programs.
 
-## 📄 Project Report
+## Project Report
 A detailed technical report is available in the `/doc` directory. It covers:
 - In-depth architectural design and datapath diagrams.
 - Implementation details of each module.
